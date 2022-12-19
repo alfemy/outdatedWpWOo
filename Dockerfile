@@ -153,7 +153,7 @@ RUN set -eux; \
 
 #Download WooCommerce plugin
 RUN set -eux; \
-    curl -o woocommerce.zip https://downloads.wordpress.org/plugin/woocommerce.6.3.1.zip; \
+    curl -o woocommerce.zip https://downloads.wordpress.org/plugin/woocommerce.7.2.0.zip; \
     unzip woocommerce.zip -d /var/www/html/wp-content/plugins/; \
     rm woocommerce.zip;
 
