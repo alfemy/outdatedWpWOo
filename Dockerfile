@@ -147,7 +147,7 @@ RUN set -eux; \
     \
     wp core download \
         --allow-root \
-        --version=5.9 \
+        --version=5.8 \
         --path=/var/www/html \
         --force;
 
