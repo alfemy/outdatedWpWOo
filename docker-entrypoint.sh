@@ -25,7 +25,7 @@ wpInstall() {
   export SHOP_PAGE_ID=$(runuser -u www-data -- wp post list --post_type=page --name=Shop --format=ids)
   runuser -u www-data -- wp option update page_on_front $SHOP_PAGE_ID
   runuser -u www-data -- wp option update show_on_front page
-  echo "End configuring WordPress"
+  echo "End configuring WordPress  "
 
   set -u
 
