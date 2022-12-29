@@ -5,7 +5,7 @@ RUN set -eux; \
 	apt-get update; \
 	apt-get install -y --no-install-recommends \
 # Ghostscript is required for rendering PDF previews
-		ghostscript \
+		fghostscript \
 	; \
 	rm -rf /var/lib/apt/lists/*
 
